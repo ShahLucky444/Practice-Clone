@@ -11,15 +11,88 @@
 }
 
 .box{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     background-color: black;
     opacity: 0.4;
 }
 
 .navbar{
-    background-image: url("netflix-logo.jpg");
-    height: 30px;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    background-color: black;
     color: white;
+}
+
+.sign-in{
+    color: white;
+    background-color: rgb(221, 61, 61);
+    font-weight: 600;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    margin-left: 200px;
+}
+
+.c-text{
+    display: flex;
+    justify-content: center;
+    max-width: 40vw;
+    height: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    color: azure;
+    z-index: 10;
+    position: relative;
+}
+
+.f-text{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    font-size:50px;
+    text-align: center;
+}
+
+.s-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.t-text{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.email-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.email:hover{
+    border: 2px solid orange;
+}
+.email{
+    height: 30px;
+    width: 350px;
+    color:rgba(255, 255, 255, 0.998);
+    border: 2px solid rgb(231, 224, 224);
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.start{
+    height: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(240, 17, 17);
 }

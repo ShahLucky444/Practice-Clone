@@ -166,6 +166,7 @@
     width: 100%;
     display: flexbox;
     text-align: center;
+    background-image: url("netflix-bg.jpg");
     background-color: transparent;
     background-color: rgb(236, 191, 191);
 }

@@ -31,6 +31,11 @@ h1{
     border: 2px dotted white;
 }
 
+.image-box,img:hover{
+    border: 2px solid rgb(28, 151, 189);
+    margin-left: 100px;
+}
+
 .detail:hover{
     text-transform: uppercase;
     border: 2px solid white;
